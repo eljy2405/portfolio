@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ethan Law Jun Yi | Financial Analyst</title>
-  <meta name="description" content="Portfolio and CV of Ethan Law Jun Yi, financial analyst specialising in valuation, FP&A and investment research." />
+  <title>Ethan Law Jun Yi | Global Markets, Corporate Sales Dealer</title>
+  <meta name="description" content="Portfolio and CV of Ethan Law Jun Yi, Global Markets, Corporate Sales Dealer profile with treasury, equity research and quantitative analysis experience." />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="market-bar" aria-label="Illustrative market quotes"><span class="market-label">MARKET WATCH <small>DEMO · NOT LIVE</small></span><div class="ticker-window"><div class="ticker-track" id="ticker-track"></div></div><button id="ticker-pause" type="button" aria-pressed="false">Pause</button></div>
+  <a class="skip-link" href="#top">Skip to content</a>
 
   <!-- ============ HEADER / NAV ============ -->
   <header class="site-header">
@@ -20,8 +22,9 @@
 
       <!-- CSS-only mobile menu toggle -->
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
-      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span></label>
+      <label for="nav-toggle" class="nav-burger"><span class="sr-only">Menu</span><span></span></label>
 
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
       <nav class="nav-links" aria-label="Main">
         <a href="#about">About</a>
         <a href="#services">Expertise</a>
@@ -39,35 +42,21 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-text">
-          <p class="eyebrow">Financial Analyst &middot; CFA Level II Candidate</p>
-          <h1>Turning complex numbers into clear investment decisions.</h1>
-          <p class="lead">
-            I'm Ethan Law Jun Yi. I help teams value businesses, build forecasts and
-            manage risk with models that are rigorous, transparent and easy to act on.
-          </p>
+          <p class="eyebrow">Global Markets, Corporate Sales Dealer</p>
+          <h1>Ethan Law Jun Yi<span class="hero-accent">Markets. Relationships. Perspective.</span></h1>
+          <p class="lead">Connecting market insight with corporate needs. A quantitative background, equity research experience and a focus on foreign exchange and interest rate hedging.</p>
           <div class="hero-actions">
-            <a href="downloads/Ethan-Law-Jun-Yi-CV.pdf" class="btn" download>Download CV (PDF)</a>
+            <a href="Ethan-Law-Jun-Yi-CV.pdf" class="btn" download>Download CV (PDF)</a>
             <a href="#projects" class="btn btn-outline">View my work</a>
             <a href="https://www.linkedin.com/in/ethanlawjunyi/" class="btn btn-ghost" target="_blank" rel="noopener">LinkedIn ↗</a>
           </div>
         </div>
 
-        <!-- Decorative CSS chart card -->
-        <aside class="hero-card" aria-label="Career highlights">
-          <div class="card-head">
-            <span>Portfolio performance</span>
-            <strong class="up">+18.4%</strong>
-          </div>
-          <div class="chart" role="img" aria-label="Rising bar chart">
-            <i style="--h:30%"></i><i style="--h:42%"></i><i style="--h:36%"></i>
-            <i style="--h:55%"></i><i style="--h:50%"></i><i style="--h:68%"></i>
-            <i style="--h:62%"></i><i style="--h:80%"></i><i style="--h:92%"></i>
-          </div>
-          <div class="card-stats">
-            <div><strong>6+</strong><span>Years experience</span></div>
-            <div><strong>$240M</strong><span>Assets analysed</span></div>
-            <div><strong>35</strong><span>Models delivered</span></div>
-          </div>
+        <aside class="hero-card" aria-label="Professional focus">
+          <div class="card-head"><span>THE CORPORATE TREASURY LENS</span><strong class="up">MYR</strong></div>
+          <div class="chart" role="img" aria-label="Decorative market chart, not actual market data"><i style="--h:30%"></i><i style="--h:42%"></i><i style="--h:36%"></i><i style="--h:55%"></i><i style="--h:50%"></i><i style="--h:68%"></i><i style="--h:62%"></i><i style="--h:80%"></i><i style="--h:92%"></i></div>
+          <div class="card-stats"><div><strong>FX</strong><span>Currency exposure</span></div><div><strong>Rates</strong><span>Hedging needs</span></div><div><strong>Clients</strong><span>Lasting relationships</span></div></div>
+          <p class="chart-note">Understand the exposure. Explain the alternatives. Support the decision. Chart is decorative.</p>
         </aside>
       </div>
     </section>
@@ -80,20 +69,9 @@
           <h2>Analytical by training, practical by habit.</h2>
         </div>
         <div class="prose">
-          <p>
-            I'm a financial analyst with a background in corporate finance and
-            equity research. My work sits between the spreadsheet and the
-            boardroom: building the model, stress-testing the assumptions, then
-            explaining the result in plain language.
-          </p>
-          <p>
-            Replace this paragraph with your own story: where you studied, the
-            sectors you know best, and what kind of problems you enjoy solving.
-          </p>
-          <ul class="tags">
-            <li>Valuation</li><li>FP&amp;A</li><li>Risk analysis</li>
-            <li>Excel &amp; VBA</li><li>Python</li><li>Power BI</li>
-          </ul>
+          <p>I’m a Biomedical Engineering graduate from King’s College London, now building my career in Global Markets at United Overseas Bank, Malaysia.</p>
+          <p>My work brings together foreign exchange and interest rate hedging, client needs and collaboration with branches and business partners. Previous equity research experience helps me connect company fundamentals with market developments.</p>
+          <ul class="tags"><li>Foreign exchange</li><li>Interest rates</li><li>Equity research</li><li>Bloomberg</li><li>Python</li><li>Excel</li></ul>
         </div>
       </div>
     </section>
@@ -105,21 +83,9 @@
         <h2>What I can do for you</h2>
 
         <div class="grid grid-3">
-          <article class="card">
-            <div class="icon">📈</div>
-            <h3>Valuation &amp; Modelling</h3>
-            <p>DCF, comparable company and precedent transaction analysis with clear, auditable assumptions.</p>
-          </article>
-          <article class="card">
-            <div class="icon">📊</div>
-            <h3>Budgeting &amp; Forecasting</h3>
-            <p>Driver-based forecasts and variance reporting that keep leadership ahead of the numbers.</p>
-          </article>
-          <article class="card">
-            <div class="icon">🛡️</div>
-            <h3>Risk &amp; Portfolio Analysis</h3>
-            <p>Scenario analysis, sensitivity testing and portfolio metrics to understand downside before it happens.</p>
-          </article>
+          <article class="card"><div class="icon" aria-hidden="true">01</div><h3>Corporate treasury</h3><p>Support clients with foreign exchange and interest rate hedging considerations based on their requirements and access.</p></article>
+          <article class="card"><div class="icon" aria-hidden="true">02</div><h3>Research &amp; analysis</h3><p>Interpret earnings, industry developments and company fundamentals to produce concise investment summaries.</p></article>
+          <article class="card"><div class="icon" aria-hidden="true">03</div><h3>Quantitative thinking</h3><p>Bring engineering discipline, data analysis and technical tools to complex financial questions.</p></article>
         </div>
       </div>
     </section>
@@ -128,48 +94,13 @@
     <section id="projects" class="section">
       <div class="container">
         <p class="eyebrow">Selected work</p>
-        <h2>Featured projects</h2>
-
+        <h2>Experience in practice</h2>
+        <p class="section-intro">Selected areas of work and study, drawn from my CV.</p>
         <div class="grid grid-2">
-          <article class="project">
-            <div class="project-top">
-              <span class="badge">Equity Research</span>
-              <span class="metric">+22% upside</span>
-            </div>
-            <h3>Consumer Retail Sector Initiation</h3>
-            <p>Built a three-statement model and DCF for a mid-cap retailer, identifying margin expansion the market had not priced in.</p>
-            <a href="#" class="link">Read case study →</a>
-          </article>
-
-          <article class="project">
-            <div class="project-top">
-              <span class="badge">FP&amp;A</span>
-              <span class="metric">-12% cost variance</span>
-            </div>
-            <h3>Rolling Forecast Automation</h3>
-            <p>Replaced a manual monthly reporting process with an automated forecast model, saving the team roughly 30 hours a month.</p>
-            <a href="#" class="link">Read case study →</a>
-          </article>
-
-          <article class="project">
-            <div class="project-top">
-              <span class="badge">M&amp;A</span>
-              <span class="metric">$85M deal</span>
-            </div>
-            <h3>Acquisition Due Diligence</h3>
-            <p>Led financial due diligence and synergy analysis supporting a successful mid-market acquisition.</p>
-            <a href="#" class="link">Read case study →</a>
-          </article>
-
-          <article class="project">
-            <div class="project-top">
-              <span class="badge">Portfolio</span>
-              <span class="metric">Sharpe 1.4</span>
-            </div>
-            <h3>Multi-Asset Allocation Study</h3>
-            <p>Backtested diversified allocation strategies in Python, balancing return targets against drawdown limits.</p>
-            <a href="#" class="link">Read case study →</a>
-          </article>
+          <article class="project"><span class="badge">Global Markets · UOB</span><h3>Corporate hedging needs</h3><p>Support foreign exchange and interest rate hedging discussions, working with branches and business partners on treasury products and approved trade lines.</p></article>
+          <article class="project"><span class="badge">Equity research · UOB Kay Hian</span><h3>From earnings to investment insight</h3><p>Analysed earnings releases, investor presentations and industry data. Synthesised findings into investment summaries for senior analysts.</p></article>
+          <article class="project"><span class="badge">King’s College London</span><h3>Smart sensing, practical outcomes</h3><p>Designed an integrated hardware and software prototype to monitor urostomy bag fill levels, alongside statistical analysis and machine learning work.</p></article>
+          <article class="project"><span class="badge">Imperial College Business School</span><h3>Private equity &amp; value creation</h3><p>Evaluated case studies, commercial due diligence and investment screening through the summer programme.</p></article>
         </div>
       </div>
     </section>
@@ -178,34 +109,12 @@
     <section id="experience" class="section section-alt">
       <div class="container">
         <p class="eyebrow">Experience</p>
-        <h2>Career timeline</h2>
-
+        <h2>A quantitative foundation. A markets focus.</h2>
         <ol class="timeline">
-          <li>
-            <span class="when">2023 – Present</span>
-            <h3>Senior Financial Analyst</h3>
-            <p class="where">Company Name</p>
-            <p>Own valuation and forecasting for a portfolio of business units. Present monthly insights to the executive team.</p>
-          </li>
-          <li>
-            <span class="when">2020 – 2023</span>
-            <h3>Financial Analyst</h3>
-            <p class="where">Company Name</p>
-            <p>Supported budgeting, variance analysis and investment appraisals across multiple regions.</p>
-          </li>
-          <li>
-            <span class="when">2018 – 2020</span>
-            <h3>Research Associate</h3>
-            <p class="where">Company Name</p>
-            <p>Covered consumer and industrial sectors, producing earnings models and company notes.</p>
-          </li>
+          <li><span class="when">APRIL 2026 – PRESENT</span><h3>FSTEP Trainee (Global Markets)</h3><p class="where">United Overseas Bank · Malaysia</p><p>Foreign exchange and interest rate hedging support; collaboration with branches and business partners on treasury product sales and trade-line utilisation.</p></li>
+          <li><span class="when">MAY 2024 – JULY 2024</span><h3>Equity Research Analyst</h3><p class="where">UOB Kay Hian · Malaysia</p><p>Company fundamentals, earnings analysis, sector research and investment summaries.</p></li>
         </ol>
-
-        <div class="credentials">
-          <div><strong>B.Sc. Finance</strong><span>University Name, 2018</span></div>
-          <div><strong>CFA Level II</strong><span>Candidate, 2026</span></div>
-          <div><strong>FMVA</strong><span>Certified, 2021</span></div>
-        </div>
+        <div class="credentials"><div><strong>King’s College London</strong><span>BEng with Honours · Biomedical Engineering</span></div><div><strong>Imperial College Business School</strong><span>Private Equity summer programme</span></div><div><strong>Bloomberg Market Concepts</strong><span>BMC certified</span></div></div>
       </div>
     </section>
 
@@ -217,16 +126,16 @@
         <p class="lead">A print-ready CV and a short slide deck, handy for interviews and for sharing with recruiters.</p>
 
         <div class="grid grid-3 downloads">
-          <a class="dl-card" href="downloads/Ethan-Law-Jun-Yi-CV.pdf" download>
+          <a class="dl-card" href="Ethan-Law-Jun-Yi-CV.pdf" download>
             <span class="dl-icon">PDF</span>
             <strong>Curriculum Vitae</strong>
-            <span class="dl-meta">1 page &middot; A4</span>
+            <span class="dl-meta">Interview CV &middot; A4</span>
             <span class="dl-cta">Download CV ↓</span>
           </a>
-          <a class="dl-card" href="downloads/Ethan-Law-Jun-Yi-Slides.pdf" download>
+          <a class="dl-card" href="Ethan-Law-Jun-Yi-Slides.pdf" download>
             <span class="dl-icon">PDF</span>
             <strong>Profile slide deck</strong>
-            <span class="dl-meta">7 slides &middot; 16:9</span>
+            <span class="dl-meta">Profile presentation &middot; 16:9</span>
             <span class="dl-cta">Download slides ↓</span>
           </a>
           <a class="dl-card" href="https://www.linkedin.com/in/ethanlawjunyi/" target="_blank" rel="noopener">
@@ -243,29 +152,29 @@
     <section id="contact" class="section contact">
       <div class="container contact-inner">
         <p class="eyebrow eyebrow-light">Contact</p>
-        <h2>Let's talk numbers.</h2>
-        <p class="lead">Open to new roles, consulting projects and collaborations.</p>
+        <h2>Let’s connect.</h2>
+        <p class="lead">Interested in opportunities in Global Markets and corporate treasury sales.</p>
 
         <!--
           Netlify Forms: this form works automatically once deployed on Netlify.
           Submissions appear in your Netlify dashboard under "Forms".
         -->
-        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form" action="/thanks.html">
           <input type="hidden" name="form-name" value="contact" />
           <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
 
           <div class="form-row">
-            <label>Name<input type="text" name="name" required /></label>
-            <label>Email<input type="email" name="email" required /></label>
+            <label>Name<input type="text" name="name" autocomplete="name" required /></label>
+            <label>Email<input type="email" name="email" autocomplete="email" required /></label>
           </div>
           <label>Message<textarea name="message" rows="4" required></textarea></label>
           <button type="submit" class="btn btn-light">Send message</button>
         </form>
 
         <p class="contact-links">
-          <a href="mailto:hello@example.com">hello@example.com</a> &middot;
+          <a href="mailto:ethanlawjy@gmail.com">ethanlawjy@gmail.com</a> &middot;
           <a href="https://www.linkedin.com/in/ethanlawjunyi/" target="_blank" rel="noopener">LinkedIn</a> &middot;
-          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/eljy2405" target="_blank" rel="noopener">GitHub</a>
         </p>
       </div>
     </section>
@@ -276,11 +185,12 @@
       <p>&copy; 2026 Ethan Law Jun Yi. All rights reserved.</p>
       <p class="footer-links">
         <a href="https://www.linkedin.com/in/ethanlawjunyi/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="downloads/Ethan-Law-Jun-Yi-CV.pdf" download>CV (PDF)</a>
+        <a href="Ethan-Law-Jun-Yi-CV.pdf" download>CV (PDF)</a>
         <a href="#top">Back to top ↑</a>
       </p>
     </div>
   </footer>
 
+  <script src="app.js" defer></script>
 </body>
 </html>
